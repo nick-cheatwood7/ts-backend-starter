@@ -1,15 +1,12 @@
 {
-    "version": "0.1.0",
-    "configurations": [
-        {
-            "name": "Node.js: debug server",
-            "type": "node-terminal",
-            "request": "launch",
-            "command": "cd . && yarn dev"
-        }
-    ],
-    "resolveSourceMapLocations": [
-        "${workspaceFolder}/**",
-        "!**/node_modules/**"
-    ]
+  "version": "0.1.0",
+  "configurations": [
+    {
+      "name": "Node.js: debug server",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "cd . && yarn dev"
+    }
+  ],
+  "resolveSourceMapLocations": ["${workspaceFolder}/**", "!**/node_modules/**"]
 }
