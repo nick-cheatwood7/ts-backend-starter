@@ -1,4 +1,3 @@
-"dotenv-safe/config";
 import cors from "cors";
 import express from "express";
 import { logger } from "./api/middleware/logger";
